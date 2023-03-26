@@ -1,30 +1,25 @@
 ---
-title: 'Gala: A Python package for galactic dynamics'
+title: 'SigPy.RF: Comprehensive Python MRI RF Pulse Design Tools'
 tags:
   - Python
-  - astronomy
-  - dynamics
-  - galactic dynamics
-  - milky way
+  - MRI
+  - signal processing
+  - RF pulse
+  - radiofrequency pulse
 authors:
-  - name: Adrian M. Price-Whelan
-    orcid: 0000-0000-0000-0000
-    equal-contrib: true
-    affiliation: "1, 2" # (Multiple affiliations must be quoted)
-  - name: Author Without ORCID
-    equal-contrib: true # (This is how you can denote equal contributions between multiple authors)
-    affiliation: 2
-  - name: Author with no affiliation
+  - name: Jonathan B. Martin
+    orcid: 0000-0002-9384-8056
+    equal-contrib: false
+    affiliation: 1 # (Multiple affiliations must be quoted)
+  - name: William A. Grissom
     corresponding: true # (This is how to denote the corresponding author)
-    affiliation: 3
+    affiliation: 2
 affiliations:
- - name: Lyman Spitzer, Jr. Fellow, Princeton University, USA
+ - name: Vanderbilt University
    index: 1
- - name: Institution Name, Country
+ - name: Case Western Reserve University
    index: 2
- - name: Independent Researcher, Country
-   index: 3
-date: 13 August 2017
+date: 26 Mar 2023
 bibliography: paper.bib
 
 # Optional fields if submitting to a AAS journal too, see this blog post:
