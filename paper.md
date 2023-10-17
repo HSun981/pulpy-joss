@@ -86,13 +86,10 @@ GPU |
 
 The SigPy.RF toolbox has been developed for the use of MRI researchers focusing on pulse sequence design, MRI physics, signal processing and optimization. We believe that it will serve as an essential building block of more general image acquisition tools which require specialized RF pulses. The toolbox has already been incorporated into open-source sequence development software such as Pulseq [rMarkdown](http://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html) and PyPulseq [rMarkdown](http://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html) to provide RF pulses critical to the performance of various pulse sequences. An example is shown in Figure 3. 
 
-![Mean execution time for small-tip spatial domain pulse design using SigPy
-linear operators and CuPy matrices across all considered problem dimensions, on CPU and
-GPU](https://github.com/jonbmartin/sigpyrf-joss/blob/main/execution_time_white.png?raw=true)
+![pypulseq](https://github.com/jonbmartin/sigpyrf-joss/blob/main/pulseq-sigpy_cropped.png)
 
-| Mean execution time for small-tip spatial domain pulse design using SigPy
-linear operators and CuPy matrices across all considered problem dimensions, on CPU and
-GPU |
+| First TR of a GRE pulse sequence with SigPy-designed SLR excitation
+pulse. Magnitude of the TB = 4 SLR pulse is plotted in the ‘RF mag’ plot, middle left. |
 
 We also envision SigPy.RF may be utilized for replicability and
 reproducibility studies, allowing for standardized conventions for RF pulses to be used across studies. The package could also serve as a hands-on teaching aid for MRI faculty and students. We have developed [several tutorials](https://github.com/jonbmartin/sigpy-rf-tutorials), which are accessible to a wide audience with minimal prior MRI knowledge. 
