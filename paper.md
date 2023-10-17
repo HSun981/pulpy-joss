@@ -72,7 +72,7 @@ as small-tip spatial domain pTx pulse designs, can closely match the performance
 toolboxes since the same low-level C FFT libraries are used (92). Additionally, SigPy has
 a general unified CPU and GPU interface for most functions, allowing for easy movement
 of data between devices for computational flexibility and acceleration of computation with
-GPUs. Figure 1 shows
+GPUs. Figure 1 shows the mean computation times for a small-tip-angle spatial domain parallel transmit pulse design (cite will) on CPU and GPU. Design time was approximately an order of magnitude faster across all problem dimensions when the GPU was used versus CPU. 
 
 ![alt text](https://github.com/jonbmartin/sigpyrf-joss/blob/main/execution_time_white.png?raw=true)
 # Target Audience
