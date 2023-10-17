@@ -74,7 +74,7 @@ a general unified CPU and GPU interface for most functions, allowing for easy mo
 of data between devices for computational flexibility and acceleration of computation with
 GPUs. Figure 1 shows
 
-![Caption for example figure.\label{fig:execution_time}](execution_time.png)
+[Caption for example figure.\label{fig:execution_time}](execution_time.png)
 
 # Target Audience
 
