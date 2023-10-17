@@ -74,8 +74,7 @@ a general unified CPU and GPU interface for most functions, allowing for easy mo
 of data between devices for computational flexibility and acceleration of computation with
 GPUs. Figure 1 shows
 
-[Caption for example figure.\label{fig:execution_time}](execution_time.png)
-
+![Drag Racing](execution_time.png)
 # Target Audience
 
 The SigPy.RF toolbox has been developed for the use of MRI researchers focusing on pulse sequence design, MRI physics, signal processing and optimization. We believe that it will serve as an essential building block of more general image acquisition tools which require specialized RF pulses. The toolbox has already been incorporated into open-source sequence development software such as Pulseq [rMarkdown](http://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html) and PyPulseq [rMarkdown](http://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html) to provide RF pulses critical to the performance of various pulse sequences. We also envision SigPy.RF may be utilized for replicability and
