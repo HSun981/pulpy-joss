@@ -99,7 +99,11 @@ The SigPy.RF fork including pulse design tools still in progress can be found
 at https://github.com/jonbmartin/sigpy-rf. Jupyter notebook pulse design
 tutorials for SigPy.RF are available at https://github.com/jonbmartin/sigpy-rf-tutorials.
 
-# Citations
+# Acknowledgements
+
+We gratefully acknowledge the support this study received from NIH Grant R01 EB 016695.
+
+# References
 
 1) P. AMREIN, F. JIA, M. ZAITSEV, AND S. LITTIN, CoilGen: Open-source MR coil
 layout generator, Magnetic Resonance in Medicine, 88 (2022), pp. 1465–1479
@@ -147,10 +151,3 @@ Compiler, Proceedings of the Second Workshop on the LLVM Compiler Infrastruc-
 ture in HPC - LLVM ’15
 
 13) K. S. Ravi, S. Geethanath, AND J.T. Vaughan Jr., PyPulseq: A Python Package for MRI Pulse Sequence Design, JOSS (2019) 
-
-
-# Acknowledgements
-
-We gratefully acknowledge the support this study received from NIH Grant R01 EB 016695.
-
-# References
