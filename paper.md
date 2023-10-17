@@ -29,12 +29,7 @@ aas-journal: Astrophysical Journal <- The name of the AAS journal.
 ---
 
 # Summary
-We present a Python package for comprehensive RF pulse design, named SigPy.RF. 
-While RF pulse developers increasingly share code online in independent repositories, no unified set of common pulse design tools is
-maintained in a rigorous and consistent manner with easy-to-read code and tutorials. An open source pulse design code library would facilitate the
-development and dissemination of novel techniques and the comparison of approaches, similar to how BART 1 , SigPy 2 , and MIRT 3 have made advanced
-parallel imaging and compressed sensing reconstruction methods widely accessible. To meet this need, we have developed a library of pulse design
-tools as part of the SigPy Python package 2 , which we call SigPy.RF. Here we detail the software’s organization and goals, provide examples,
+We present SigPy.RF, an extensive set of open-source, Python-ba­­sed tools for MRI RF pulse design. This toolbox extends the SigPy Python software package and leverages SigPy’s existing capabilities for GPU computation, iterative optimization, and powerful abstractions for linear operators, proximal operators, and applications. Tools are available for all steps of the excitation design process including trajectory/gradient design, pulse design, and simulation. Our implemented functions for pulse design include advanced SLR, multiband, adiabatic, optimal control, B1+-selective and small-tip pTx designers.
 
 # Statement of need
 The field of magnetic resonance imaging is currently experiencing rapid growth in the num-
