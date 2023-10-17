@@ -41,8 +41,7 @@ novel techniques and the comparison of approaches, similar to how BART (7) and S
 struction methods widely accessible. To meet this need, we have developed a library of
 pulse design tools as part of the SigPy Python package for signal processing and image re-
 construction (6). We call this new package SigPy.RF. SigPy.RF is constructed as a nested
-package within the broader SigPy package. Figure 1 illustrates where the RF pulse design tools fit into the broader SigPy software, as a nested package within the package for general MRI tools. Here we detail the software’s organization and
-goals, provide examples, and 
+package within the broader SigPy package. Figure 1 illustrates where the RF pulse design tools fit into the broader SigPy software, as a nested package within the package for general MRI tools.
 
 ![hierarchy](https://github.com/jonbmartin/sigpyrf-joss/blob/main/sigpy-hierarch.PNG)
 
