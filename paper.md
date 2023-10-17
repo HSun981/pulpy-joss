@@ -77,6 +77,11 @@ GPUs. Figure 1 shows the mean computation times for a small-tip-angle spatial do
 ![Mean execution time for small-tip spatial domain pulse design using SigPy
 linear operators and CuPy matrices across all considered problem dimensions, on CPU and
 GPU](https://github.com/jonbmartin/sigpyrf-joss/blob/main/execution_time_white.png?raw=true)
+
+| Mean execution time for small-tip spatial domain pulse design using SigPy
+linear operators and CuPy matrices across all considered problem dimensions, on CPU and
+GPU |
+
 # Target Audience
 
 The SigPy.RF toolbox has been developed for the use of MRI researchers focusing on pulse sequence design, MRI physics, signal processing and optimization. We believe that it will serve as an essential building block of more general image acquisition tools which require specialized RF pulses. The toolbox has already been incorporated into open-source sequence development software such as Pulseq [rMarkdown](http://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html) and PyPulseq [rMarkdown](http://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html) to provide RF pulses critical to the performance of various pulse sequences. We also envision SigPy.RF may be utilized for replicability and
