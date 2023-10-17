@@ -29,7 +29,7 @@ aas-journal: Astrophysical Journal <- The name of the AAS journal.
 ---
 
 # Summary
-
+We present a Python package for comprehensive RF pulse design, named SigPy.RF. 
 While RF pulse developers increasingly share code online in independent repositories, no unified set of common pulse design tools is
 maintained in a rigorous and consistent manner with easy-to-read code and tutorials. An open source pulse design code library would facilitate the
 development and dissemination of novel techniques and the comparison of approaches, similar to how BART 1 , SigPy 2 , and MIRT 3 have made advanced
@@ -113,18 +113,9 @@ For a quick reference, the following citation commands can be used:
 - `[@author:2001]` -> "(Author et al., 2001)"
 - `[@author1:2001; @author2:2001]` -> "(Author1 et al., 2001; Author2 et al., 2002)"
 
-# Figures
-
-Figures can be included like this:
-![Caption for example figure.\label{fig:example}](figure.png)
-and referenced from text using \autoref{fig:example}.
-
-Figure sizes can be customized by adding an optional second parameter:
-![Caption for example figure.](figure.png){ width=20% }
 
 # Acknowledgements
 
-We acknowledge contributions from Brigitta Sipocz, Syrtis Major, and Semyeong
-Oh, and support from Kathryn Johnston during the genesis of this project.
+We gratefully acknowledge the support this study received from NIH Grant R01 EB 016695.
 
 # References
