@@ -104,11 +104,10 @@ reproducibility studies, allowing for standardized conventions for RF pulses to 
 
 The latest version of SigPy includes the most stable pulse
 design tools to have been developed and is available from
-https://github.com/mikgroup/sigpy. It can be installed through conda or pip.
+https://github.com/mikgroup/sigpy. It can be installed through conda or pip- see documentation at https://sigpy.readthedocs.io/en/latest/ for more details.
 The SigPy.RF fork including pulse design tools still in progress can be found
 at https://github.com/jonbmartin/sigpy-rf. Jupyter notebook pulse design
-tutorials for SigPy.RF are available at https://github.com/jonbmartin/sigpy-
-rf-tutorials
+tutorials for SigPy.RF are available at https://github.com/jonbmartin/sigpy-rf-tutorials.
 
 # Citations
 
