@@ -45,10 +45,8 @@ parallel imaging and compressed sensing reconstruction methods widely accessible
 
 # Target Audience
 
-The SigPy.RF toolbox has been developed for the use of MRI researchers focusing on pulse sequence design, MRI physics, signal processing and optimization. We believe that it will serve as an essential building block of more general image acquisition tools which require specialized RF pulses. The toolbox has already been incorporated into open-source sequence development software such as Pulseq [rMarkdown](http://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html) and PyPulseq [rMarkdown](http://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html). We also envisage PyPulseq to be utilized for replicability and
-reproducibility studies. The package could also serve as a hands-on teaching aid for MRI faculty and students. Beginners can
-get started with the bundled example pulse sequences. More familiar users can import the
-appropriate packages to construct and deploy custom pulse sequence @author:2001
+The SigPy.RF toolbox has been developed for the use of MRI researchers focusing on pulse sequence design, MRI physics, signal processing and optimization. We believe that it will serve as an essential building block of more general image acquisition tools which require specialized RF pulses. The toolbox has already been incorporated into open-source sequence development software such as Pulseq [rMarkdown](http://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html) and PyPulseq [rMarkdown](http://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html) to provide RF pulses critical to the performance of various pulse sequences. We also envision SigPy.RF may be utilized for replicability and
+reproducibility studies, allowing for standardized conventions for RF pulses to be used across studies. The package could also serve as a hands-on teaching aid for MRI faculty and students. We have developed [several tutorials](https://github.com/jonbmartin/sigpy-rf-tutorials), which are accessible to a wide audience with minimal prior MRI knowledge. 
 
 # Citations
 
