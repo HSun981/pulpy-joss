@@ -55,6 +55,7 @@ package within the broader SigPy package. Figure 1 illustrates where the RF puls
 goals, provide examples, and 
 
 ![hierarchy](https://github.com/jonbmartin/sigpyrf-joss/blob/main/sigpy-hierarch.PNG)
+
 |New RF pulse design tools (red) within the SigPy package hierarchy. The pulse
  design tools are grouped in a series of modules dedicated to a specific pulse class or type
 of RF pulse design utility|
@@ -98,6 +99,16 @@ pulse. Magnitude of the TB = 4 , 90 degree SLR pulse is plotted in the ‘RF mag
 
 We also envision SigPy.RF may be utilized for replicability and
 reproducibility studies, allowing for standardized conventions for RF pulses to be used across studies. The package could also serve as a hands-on teaching aid for MRI faculty and students. We have developed [several tutorials](https://github.com/jonbmartin/sigpy-rf-tutorials), which are accessible to a wide audience with minimal prior MRI knowledge. 
+
+# Availability
+
+The latest version of SigPy includes the most stable pulse
+design tools to have been developed and is available from
+https://github.com/mikgroup/sigpy. It can be installed through conda or pip.
+The SigPy.RF fork including pulse design tools still in progress can be found
+at https://github.com/jonbmartin/sigpy-rf. Jupyter notebook pulse design
+tutorials for SigPy.RF are available at https://github.com/jonbmartin/sigpy-
+rf-tutorials
 
 # Citations
 
