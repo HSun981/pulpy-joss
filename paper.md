@@ -54,7 +54,25 @@ construction (92). We call this new package SigPy.RF. SigPy.RF is constructed as
 package within the broader SigPy package. Here we detail the software’s organization and
 goals, provide examples, and 
 
-# About the SigPy Package
+# About SigPy.RF
+SigPy has a number of features that make it an ideal candidate to support a nested RF
+pulse design package. Image reconstruction and RF pulse design require many of the same
+operators and computational tools; for example, SENSE reconstruction (98) and small-tip
+parallel transmit pulse design (64) are in many cases parallel processes moving in the oppo-
+site directions between the spatial and frequency domains, with the same or similar linear
+operators and the same requirements for iterative optimization tools. Thus critical tools
+such as Fourier operators, conjugate gradient iterative optimizers, and matrix manipulation
+methods are provided in SigPy (92).
+SigPy was further built with a number of computational features that make it an ideal fit
+for RF pulse design. As a Python library, SigPy in general should not be expected to match
+the performance of comparable C libraries such as BART (128). However, SigPy uses
+Numba (68) to translate many of its’ most commonly used tools, such as gridding functions
+to optimized machine code at runtime. Optimizations that are dominated by FFTs, such
+as small-tip spatial domain pTx pulse designs, can closely match the performance of C
+toolboxes since the same low-level C FFT libraries are used (92). Additionally, SigPy has
+a general unified CPU and GPU interface for most functions, allowing for easy movement
+of data between devices for computational flexibility and acceleration of computation with
+GPUs. Figure 1 shows
 
 # Target Audience
 
