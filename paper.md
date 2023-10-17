@@ -88,8 +88,8 @@ The SigPy.RF toolbox has been developed for the use of MRI researchers focusing 
 
 ![pypulseq](https://github.com/jonbmartin/sigpyrf-joss/blob/main/pulseq-sigpy_cropped.png)
 
-| First TR of a GRE pulse sequence with SigPy-designed SLR excitation
-pulse. Magnitude of the TB = 4 SLR pulse is plotted in the ‘RF mag’ plot, middle left. |
+| First TR of a GRE pulse sequence created in Pulseq (cite) with SigPy-designed SLR excitation
+pulse. Magnitude of the TB = 4 , 90 degree SLR pulse is plotted in the ‘RF mag’ plot, middle left. |
 
 We also envision SigPy.RF may be utilized for replicability and
 reproducibility studies, allowing for standardized conventions for RF pulses to be used across studies. The package could also serve as a hands-on teaching aid for MRI faculty and students. We have developed [several tutorials](https://github.com/jonbmartin/sigpy-rf-tutorials), which are accessible to a wide audience with minimal prior MRI knowledge. 
