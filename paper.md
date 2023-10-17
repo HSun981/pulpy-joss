@@ -48,7 +48,7 @@ parallel imaging and compressed sensing reconstruction methods widely accessible
 The SigPy.RF toolbox has been developed for the use of MRI researchers focusing on pulse sequence design, MRI physics, signal processing and optimization. We believe that it will serve as an essential building block of more general image acquisition tools which require specialized RF pulses. The toolbox has already been incorporated into open-source sequence development software such as Pulseq [rMarkdown](http://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html) and PyPulseq [rMarkdown](http://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html). We also envisage PyPulseq to be utilized for replicability and
 reproducibility studies. The package could also serve as a hands-on teaching aid for MRI faculty and students. Beginners can
 get started with the bundled example pulse sequences. More familiar users can import the
-appropriate packages to construct and deploy custom pulse sequence
+appropriate packages to construct and deploy custom pulse sequence @author:2001
 
 # Citations
 
