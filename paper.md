@@ -30,16 +30,29 @@ aas-journal: Astrophysical Journal <- The name of the AAS journal.
 
 # Summary
 
- To meet this need, we have developed a library of pulse design
-tools as part of the SigPy Python package 2 , which we call SigPy.RF. Here we detail the software’s organization and goals, provide examples, and show
-an experimental validation of parallel transmission (pTx) pulses designed using SigPy.RF.
-
-# Statement of need
-
 While RF pulse developers increasingly share code online in independent repositories, no unified set of common pulse design tools is
 maintained in a rigorous and consistent manner with easy-to-read code and tutorials. An open source pulse design code library would facilitate the
 development and dissemination of novel techniques and the comparison of approaches, similar to how BART 1 , SigPy 2 , and MIRT 3 have made advanced
-parallel imaging and compressed sensing reconstruction methods widely accessible.
+parallel imaging and compressed sensing reconstruction methods widely accessible. To meet this need, we have developed a library of pulse design
+tools as part of the SigPy Python package 2 , which we call SigPy.RF. Here we detail the software’s organization and goals, provide examples,
+
+# Statement of need
+The field of magnetic resonance imaging is currently experiencing rapid growth in the num-
+ber of available open source imaging tools. Tools have been made freely available for MRI hardware development (3; 4), system simulation (32; 123), pulse sequence pro-
+gramming (70), image reconstruction (92; 128), and post-processing and analysis (5; 31;
+115; 116)
+However, one critical step of the imaging pipeline which has seen limited open-source tool de-
+velopment is RF pulse design.  While RF pulse developers increasingly share code online
+in independent repositories, no unified set of common pulse design tools has been main-
+tained in a rigorous and consistent manner with easy-to-read code and tutorials. This is despite the reality that in many cases, carefully designed or application-specific RF pulses are crucial to the success of MRI techniques. An open
+source pulse design code library would facilitate the development and dissemination of
+novel techniques and the comparison of approaches, similar to how BART (128), SigPy
+(92), and MIRT (33) have made advanced parallel imaging and recon-
+struction methods widely accessible. To meet this need, we have developed a library of
+pulse design tools as part of the SigPy Python package for signal processing and image re-
+construction (92). We call this new package SigPy.RF. SigPy.RF is constructed as a nested
+package within the broader SigPy package. Here we detail the software’s organization and
+goals, provide examples, and 
 
 # About the SigPy Package
 
