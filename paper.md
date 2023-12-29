@@ -11,14 +11,26 @@ authors:
     orcid: 0000-0002-9384-8056
     equal-contrib: false
     affiliation: 1 # (Multiple affiliations must be quoted)
+  - name: Jonathan I. Tamir
+    affiliation: 2
+  - name: Michael Lustig
+    affiliation: 3
+  - name: Frank Ong
+    affiliation: 4
   - name: William A. Grissom
     corresponding: true # (This is how to denote the corresponding author)
-    affiliation: 2
+    affiliation: 5
 affiliations:
- - name: Vanderbilt University
+ - name: Vanderbilt University Medical Center
    index: 1
- - name: Case Western Reserve University
+ - name: University of Texas
    index: 2
+ - name: Roblox Corporation
+   index: 3
+ - name: University of California, Berkeley
+   index: 4
+ - name: Case Western Reserve University
+   index: 5
 date: 26 Mar 2023
 bibliography: paper.bib
 
