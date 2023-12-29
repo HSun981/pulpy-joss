@@ -54,7 +54,7 @@ bibliography: paper.bib
 ---
 
 # Summary
-We present SigPy.RF, an extensive set of open-source, Python-ba­­sed tools for MRI RF pulse design. This toolbox extends the SigPy Python software package and leverages SigPy’s existing capabilities for GPU computation, iterative optimization, and powerful abstractions for linear operators, proximal operators, and applications. Tools are available for all steps of the excitation design process including trajectory/gradient design, pulse design, and simulation. Our implemented functions for pulse design include advanced SLR, multiband, adiabatic, optimal control, B<sub>1</sub><sup>+</sup>-selective and small-tip pTx designers. Preliminary development of this toolbox was presented in reference (1); the current version has been streamlined and expanded to include a larger collection of RF pulse design methods from the literature, as well as additional utility tools for I/O, gradient waveform design, and experimental B<sub>1</sub><sup>+</sup>-selective pulse design algorithms which were prototyped using the initial SigPy.RF codebase (2).
+We present SigPy.RF, an extensive set of open-source, Python-ba­­sed tools for MRI RF pulse design. This toolbox extends the SigPy Python software package and leverages SigPy’s existing capabilities for GPU computation, iterative optimization, and powerful abstractions for linear operators, proximal operators, and applications. Tools are available for all steps of the excitation design process including trajectory/gradient design, pulse design, and simulation. Our implemented functions for pulse design include advanced SLR, multiband, adiabatic, optimal control, B<sub>1</sub><sup>+</sup>-selective and small-tip pTx designers. Preliminary development of this toolbox was presented in reference (1); the current version has been streamlined and expanded to include a larger collection of RF pulse design methods from the literature, as well as additional utility tools for I/O, gradient waveform design, and experimental B<sub>1</sub><sup>+</sup>-selective pulse design algorithms which were prototyped using the initial SigPy.RF codebase, enabling the publication of Reference (2).
 
 # Statement of need
 The field of magnetic resonance imaging is currently experiencing rapid growth in the num-
@@ -112,7 +112,7 @@ The SigPy.RF toolbox has been developed for the use of MRI researchers focusing 
 
 ![pypulseq](https://github.com/jonbmartin/sigpyrf-joss/blob/main/pulseq-sigpy_cropped.png)
 
-| First TR of a GRE pulse sequence created in Pulseq (cite) with SigPy-designed SLR excitation
+| First TR of a GRE pulse sequence created in Pulseq (7) with SigPy.RF-designed SLR excitation
 pulse. Magnitude of the TB = 4 , 90 degree SLR pulse is plotted in the ‘RF mag’ plot, middle left. |
 
 We also envision SigPy.RF may be utilized for replicability and
@@ -121,11 +121,10 @@ reproducibility studies, allowing for standardized conventions for RF pulses to 
 # Availability
 
 The latest version of SigPy includes the most stable pulse
-design tools to have been developed and is available from
-https://github.com/mikgroup/sigpy. It can be installed through conda or pip- see documentation at https://sigpy.readthedocs.io/en/latest/ for more details.
-The SigPy.RF fork including pulse design tools still in progress can be found
-at https://github.com/jonbmartin/sigpy-rf. Jupyter notebook pulse design
-tutorials for SigPy.RF are available at https://github.com/jonbmartin/sigpy-rf-tutorials.
+design tools to have been developed and is available from 
+[the main repository](https://github.com/mikgroup/sigpy). It can be installed through conda or pip- see the [documentation](https://sigpy.readthedocs.io/en/latest/) for more details.
+The [SigPy.RF fork](https://github.com/jonbmartin/sigpy-rf) includes pulse design tools that are still in progress, prior to being merged into the main codebase. Jupyter notebook [pulse design
+tutorials](https://github.com/jonbmartin/sigpy-rf-tutorials) for SigPy.RF are available.
 
 # Acknowledgements
 
