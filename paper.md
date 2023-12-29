@@ -12,10 +12,13 @@ authors:
     equal-contrib: false
     affiliation: 1 # (Multiple affiliations must be quoted)
   - name: Jonathan I. Tamir
+    equal-contrib: false
     affiliation: 2
   - name: Michael Lustig
+    equal-contrib: false
     affiliation: 3
   - name: Frank Ong
+    equal-contrib: false
     affiliation: 4
   - name: William A. Grissom
     corresponding: true # (This is how to denote the corresponding author)
