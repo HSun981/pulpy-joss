@@ -54,7 +54,7 @@ bibliography: paper.bib
 ---
 
 # Summary
-We present SigPy.RF, an extensive set of open-source, Python-ba­­sed tools for MRI RF pulse design. This toolbox extends the SigPy Python software package and leverages SigPy’s existing capabilities for GPU computation, iterative optimization, and powerful abstractions for linear operators, proximal operators, and applications. Tools are available for all steps of the excitation design process including trajectory/gradient design, pulse design, and simulation. Our implemented functions for pulse design include advanced SLR, multiband, adiabatic, optimal control, B1+-selective and small-tip pTx designers. Preliminary development of this toolbox was presented in reference (1); the current version has been streamlined and expanded to include a larger collection of RF pulse design methods from the literature, as well as additional utility tools for I/O, gradient waveform design, and experimental B<sub>1</sub><sup>+</sup>-selective pulse design algorithms which were prototyped using the initial SigPy.RF codebase (2).
+We present SigPy.RF, an extensive set of open-source, Python-ba­­sed tools for MRI RF pulse design. This toolbox extends the SigPy Python software package and leverages SigPy’s existing capabilities for GPU computation, iterative optimization, and powerful abstractions for linear operators, proximal operators, and applications. Tools are available for all steps of the excitation design process including trajectory/gradient design, pulse design, and simulation. Our implemented functions for pulse design include advanced SLR, multiband, adiabatic, optimal control, B<sub>1</sub><sup>+</sup>-selective and small-tip pTx designers. Preliminary development of this toolbox was presented in reference (1); the current version has been streamlined and expanded to include a larger collection of RF pulse design methods from the literature, as well as additional utility tools for I/O, gradient waveform design, and experimental B<sub>1</sub><sup>+</sup>-selective pulse design algorithms which were prototyped using the initial SigPy.RF codebase (2).
 
 # Statement of need
 The field of magnetic resonance imaging is currently experiencing rapid growth in the num-
@@ -137,7 +137,7 @@ We gratefully acknowledge the support this study received from NIH Grant R01 EB 
 SigPy.RF: Comprehensive Open-Source RF Pulse Design Tools for Reproducible Research, in Proc. Intl. Soc. Mag. Reson. Med., 2020, p. 1045.
 
 2) J. MARTIN, S. SRINIVAS, C. VAUGHN, H. SUN, M. GRISWOLD, W. GRSSOM,
-Selective excitation localized by the Bloch-Siegert shift and a B1+ gradient, Magnetic Resonance in Medicine, 88 (2022), pp. 1081-1097.
+Selective excitation localized by the Bloch-Siegert shift and a B<sub>1</sub><sup>+</sup> gradient, Magnetic Resonance in Medicine, 88 (2022), pp. 1081-1097.
 
 3) P. AMREIN, F. JIA, M. ZAITSEV, AND S. LITTIN, CoilGen: Open-source MR coil
 layout generator, Magnetic Resonance in Medicine, 88 (2022), pp. 1465–1479.
