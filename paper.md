@@ -72,7 +72,7 @@ pulse design tools as part of the SigPy Python package for signal processing and
 construction [@Ong2019]. We call this new package SigPy.RF. SigPy.RF is constructed as a nested
 package within the broader SigPy package. Figure 1 illustrates where the RF pulse design tools fit into the broader SigPy software, as a nested package within the package for general MRI tools.
 
-![hierarchy](https://github.com/jonbmartin/sigpyrf-joss/blob/main/sigpy-hierarch.PNG)
+![hierarchy](https://github.com/jonbmartin/sigpyrf-joss/blob/main/sigpy-hierarch.png)
 
 |New RF pulse design tools (red) within the SigPy package hierarchy. The pulse
  design tools are grouped in a series of modules dedicated to a specific pulse class or type
