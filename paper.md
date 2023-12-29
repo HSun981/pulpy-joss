@@ -59,17 +59,17 @@ We present SigPy.RF, an extensive set of open-source, Python-ba­­sed tools for
 # Statement of need
 The field of magnetic resonance imaging is currently experiencing rapid growth in the num-
 ber of available open source imaging tools. Tools have been made freely available for MRI hardware development [@Amrein2022; @Anand2018], system simulation [@Villena2014; @Stocker2010], pulse sequence pro-
-gramming [@Layton2017], image reconstruction (8; 9), and post-processing and analysis (10; 11)
+gramming [@Layton2017], image reconstruction [@Ong2019; @Uecker2015], and post-processing and analysis [@Avants2014; @Duval2018].
 However, one critical step of the imaging pipeline which has seen limited open-source tool de-
 velopment is RF pulse design.  While RF pulse developers increasingly share code online
 in independent repositories, no unified set of common pulse design tools has been main-
 tained in a rigorous and consistent manner with easy-to-read code and tutorials. This is despite the reality that in many cases, carefully designed or application-specific RF pulses are crucial to the success of MRI techniques. An open
 source pulse design code library would facilitate the development and dissemination of
-novel techniques and the comparison of approaches, similar to how BART (9) and SigPy
-(8) have made advanced parallel imaging and recon-
+novel techniques and the comparison of approaches, similar to how BART [@Uecker2015] and SigPy
+[@Ong2019] have made advanced parallel imaging and recon-
 struction methods widely accessible. To meet this need, we have developed a library of
 pulse design tools as part of the SigPy Python package for signal processing and image re-
-construction (8). We call this new package SigPy.RF. SigPy.RF is constructed as a nested
+construction [@Ong2019]. We call this new package SigPy.RF. SigPy.RF is constructed as a nested
 package within the broader SigPy package. Figure 1 illustrates where the RF pulse design tools fit into the broader SigPy software, as a nested package within the package for general MRI tools.
 
 ![hierarchy](https://github.com/jonbmartin/sigpyrf-joss/blob/main/sigpy-hierarch.PNG)
@@ -81,22 +81,22 @@ of RF pulse design utility|
 # About SigPy.RF
 SigPy has a number of features that make it an ideal candidate to support a nested RF
 pulse design package. Image reconstruction and RF pulse design require many of the same
-operators and computational tools; for example, SENSE reconstruction (12) and small-tip
-parallel transmit pulse design (13) are in many cases parallel processes moving in the oppo-
+operators and computational tools; for example, SENSE reconstruction [@Pruessmann] and small-tip
+parallel transmit pulse design [@Grissom2006] are in many cases parallel processes moving in the oppo-
 site directions between the spatial and frequency domains, with the same or similar linear
 operators and the same requirements for iterative optimization tools. Thus critical tools
 such as Fourier operators, conjugate gradient iterative optimizers, and matrix manipulation
-methods are provided in SigPy (8).
+methods are provided in SigPy [@Ong2019].
 SigPy was further built with a number of computational features that make it an ideal fit
 for RF pulse design. As a Python library, SigPy in general should not be expected to match
-the performance of comparable C libraries such as BART (9). However, SigPy uses
-Numba (14) to translate many of its’ most commonly used tools, such as gridding functions
+the performance of comparable C libraries such as BART [@Uecker2015]. However, SigPy uses
+Numba [@Lam2015] to translate many of its’ most commonly used tools, such as gridding functions
 to optimized machine code at runtime. Optimizations that are dominated by FFTs, such
 as small-tip spatial domain pTx pulse designs, can closely match the performance of C
-toolboxes since the same low-level C FFT libraries are used (8). Additionally, SigPy has
+toolboxes since the same low-level C FFT libraries are used [@Ong2019]. Additionally, SigPy has
 a general unified CPU and GPU interface for most functions, allowing for easy movement
 of data between devices for computational flexibility and acceleration of computation with
-GPUs. Figure 1 shows the mean computation times for a small-tip-angle spatial domain parallel transmit pulse design (13) on CPU and GPU. Design time was approximately an order of magnitude faster across all problem dimensions when the GPU was used versus CPU. 
+GPUs. Figure 1 shows the mean computation times for a small-tip-angle spatial domain parallel transmit pulse design [@Grissom2006] on CPU and GPU. Design time was approximately an order of magnitude faster across all problem dimensions when the GPU was used versus CPU. 
 
 ![Mean execution time for small-tip spatial domain pulse design using SigPy
 linear operators and CuPy matrices across all considered problem dimensions, on CPU and
@@ -108,11 +108,11 @@ GPU |
 
 # Target Audience
 
-The SigPy.RF toolbox has been developed for the use of MRI researchers focusing on pulse sequence design, MRI physics, signal processing and optimization. We believe that it will serve as an essential building block of more general image acquisition tools which require specialized RF pulses. The toolbox has already been incorporated into open-source sequence development software such as Pulseq (7) and PyPulseq (15) to provide RF pulses critical to the performance of various pulse sequences. An example is shown in Figure 3. 
+The SigPy.RF toolbox has been developed for the use of MRI researchers focusing on pulse sequence design, MRI physics, signal processing and optimization. We believe that it will serve as an essential building block of more general image acquisition tools which require specialized RF pulses. The toolbox has already been incorporated into open-source sequence development software such as Pulseq [@Layton2017] and PyPulseq [@SravanRavi2019] to provide RF pulses critical to the performance of various pulse sequences. An example is shown in Figure 3. 
 
 ![pypulseq](https://github.com/jonbmartin/sigpyrf-joss/blob/main/pulseq-sigpy_cropped.png)
 
-| First TR of a GRE pulse sequence created in Pulseq (7) with SigPy.RF-designed SLR excitation
+| First TR of a GRE pulse sequence created in Pulseq [@Layton2017] with SigPy.RF-designed SLR excitation
 pulse. Magnitude of the TB = 4 , 90 degree SLR pulse is plotted in the ‘RF mag’ plot, middle left. |
 
 We also envision SigPy.RF may be utilized for replicability and
