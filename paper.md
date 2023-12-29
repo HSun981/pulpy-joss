@@ -18,26 +18,36 @@ authors:
   - name: Jonathan I. Tamir
     equal-contrib: false
     affiliation: 2
-  - name: Michael Lustig
+  - name: Heng Sun
     equal-contrib: false
     affiliation: 3
-  - name: Frank Ong
+  - name: Madison Albert
     equal-contrib: false
     affiliation: 4
+  - name: Michael Lustig
+    equal-contrib: false
+    affiliation: 5
+  - name: Frank Ong
+    equal-contrib: false
+    affiliation: 6
   - name: William A. Grissom
     corresponding: true # (This is how to denote the corresponding author)
-    affiliation: 5
+    affiliation: 7
 affiliations:
  - name: Vanderbilt University Medical Center
    index: 1
  - name: University of Texas
    index: 2
- - name: Roblox Corporation
+ - name: Yale University
    index: 3
- - name: University of California, Berkeley
+ - name: Vanderbilt University
    index: 4
- - name: Case Western Reserve University
+ - name: University of California, Berkeley
    index: 5
+ - name: Roblox Corporation
+   index: 6
+ - name: Case Western Reserve University
+   index: 7
 date: 26 Mar 2023
 bibliography: paper.bib
 
