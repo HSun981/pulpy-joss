@@ -15,13 +15,13 @@ authors:
     orcid: 0000-0002-9384-8056
     equal-contrib: false
     affiliation: 1 # (Multiple affiliations must be quoted)
-  - name: Jonathan I. Tamir
-    equal-contrib: false
-    affiliation: 2
   - name: Heng Sun
     equal-contrib: false
-    affiliation: 3
+    affiliation: 2
   - name: Madison Albert
+    equal-contrib: false
+    affiliation: 3
+  - name: Jonathan I. Tamir
     equal-contrib: false
     affiliation: 4
   - name: Michael Lustig
@@ -36,11 +36,11 @@ authors:
 affiliations:
  - name: Vanderbilt University Medical Center
    index: 1
- - name: University of Texas
-   index: 2
  - name: Yale University
-   index: 3
+   index: 2
  - name: Vanderbilt University
+   index: 3
+ - name: University of Texas
    index: 4
  - name: University of California, Berkeley
    index: 5
@@ -70,11 +70,11 @@ novel techniques and the comparison of approaches, similar to how BART [@Uecker2
 struction methods widely accessible. To meet this need, we have developed a library of
 pulse design tools as part of the SigPy Python package for signal processing and image re-
 construction [@Ong2019]. We call this new package SigPy.RF. SigPy.RF is constructed as a nested
-package within the broader SigPy package. Figure 1 illustrates where the RF pulse design tools fit into the broader SigPy software, as a nested package within the package for general MRI tools.
+package within the broader SigPy package. \autoref{fig:soot} illustrates where the RF pulse design tools fit into the broader SigPy software, as a nested package within the package for general MRI tools.
 
 ![New RF pulse design tools (red) within the SigPy package hierarchy. The pulse
  design tools are grouped in a series of modules dedicated to a specific pulse class or type
-of RF pulse design utility](https://github.com/jonbmartin/sigpyrf-joss/blob/main/sigpy-hierarch.png)
+of RF pulse design utility\label{fig:hierarchy}](https://github.com/jonbmartin/sigpyrf-joss/blob/main/sigpy-hierarch.png){ width=90% }
 
 # About SigPy.RF
 SigPy has a number of features that make it an ideal candidate to support a nested RF
