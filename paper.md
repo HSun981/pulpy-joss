@@ -75,7 +75,7 @@ package within the broader SigPy package. Figure 1 illustrates where the RF puls
 
 ![New RF pulse design tools (red) within the SigPy package hierarchy. The pulse
  design tools are grouped in a series of modules dedicated to a specific pulse class or type
-of RF pulse design utility\label{fig:hierarchy}](https://github.com/jonbmartin/sigpyrf-joss/blob/main/download.png){ width=90% }
+of RF pulse design utility\label{fig:hierarchy}](download.png){ width=90% }
 
 # About SigPy.RF
 SigPy has a number of features that make it an ideal candidate to support a nested RF
