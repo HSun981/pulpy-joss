@@ -54,7 +54,7 @@ bibliography: paper.bib
 ---
 
 # Summary
-We present SigPy.RF, an extensive set of open-source, Python-ba­­sed tools for MRI RF pulse design. This toolbox extends the SigPy Python software package and leverages SigPy’s existing capabilities for GPU computation, iterative optimization, and powerful abstractions for linear operators, proximal operators, and applications. Tools are available for all steps of the excitation design process including trajectory/gradient design, pulse design, and simulation. Our implemented functions for pulse design include advanced SLR, multiband, adiabatic, optimal control, B$_1^+$-selective and small-tip pTx designers. Preliminary development of this toolbox was presented in reference [@Martin2020a]; the current version has been streamlined and expanded to include a larger collection of RF pulse design methods from the literature, as well as additional utility tools for I/O, gradient waveform design, and experimental B$_1^+$-selective pulse design algorithms which were prototyped using the initial SigPy.RF codebase, enabling the publication of Reference [@Martin2022].
+We present SigPy.RF, an extensive set of open-source, Python-ba­­sed tools for magnetic resonance imaging (MRI) radiofrequency (RF) pulse design. This toolbox extends the SigPy Python software package and leverages SigPy’s existing capabilities for GPU computation, iterative optimization, and powerful abstractions for linear operators, proximal operators, and applications. Tools are available for all steps of the excitation design process including trajectory/gradient design, pulse design, and simulation. Our implemented functions for pulse design include advanced Shinnar-LeRoux (SLR), multiband, adiabatic, optimal control, B$_1^+$-selective and small-tip parallel transmission (pTx) designers. Preliminary development of this toolbox was presented in reference [@Martin2020a]; the current version has been streamlined and expanded to include a larger collection of RF pulse design methods from the literature, as well as additional utility tools for I/O, gradient waveform design, and experimental B$_1^+$-selective pulse design algorithms which were prototyped using the initial SigPy.RF codebase, enabling the publication of Reference [@Martin2022].
 
 # Statement of need
 The field of magnetic resonance imaging is currently experiencing rapid growth in the num-
@@ -74,7 +74,7 @@ package within the broader SigPy package. Figure 1 illustrates where the RF puls
 
 ![New RF pulse design tools (red) within the SigPy package hierarchy. The pulse
  design tools are grouped in a series of modules dedicated to a specific pulse class or type
-of RF pulse design utility](sigpy-hierarch.png){ width=90% }
+of RF pulse design utility](sigpy-hierarch.png){ width=50% }
 
 
 # About SigPy.RF
@@ -99,14 +99,14 @@ GPUs. Figure 1 shows the mean computation times for a small-tip-angle spatial do
 
 ![Mean execution time for small-tip spatial domain pulse design using SigPy
 linear operators and CuPy matrices across all considered problem dimensions, on CPU and
-GPU](execution_time.png){ width=90% }
+GPU](execution_time.png){ width=50% }
 
 # Target Audience
 
 The SigPy.RF toolbox has been developed for the use of MRI researchers focusing on pulse sequence design, MRI physics, signal processing and optimization. We believe that it will serve as an essential building block of more general image acquisition tools which require specialized RF pulses. The toolbox has already been incorporated into open-source sequence development software such as Pulseq [@Layton2017] and PyPulseq [@SravanRavi2019] to provide RF pulses critical to the performance of various pulse sequences. An example is shown in Figure 3. 
 
 ![ First TR of a GRE pulse sequence created in Pulseq [@Layton2017] with SigPy.RF-designed SLR excitation
-pulse. Magnitude of the TB = 4 , 90 degree SLR pulse is plotted in the ‘RF mag’ plot, middle left. ](pulseq-sigpy_cropped.png){ width=90% }
+pulse. Magnitude of the TB = 4 , 90 degree SLR pulse is plotted in the ‘RF mag’ plot, middle left. ](pulseq-sigpy_cropped.png){ width=75% }
 
 
 
