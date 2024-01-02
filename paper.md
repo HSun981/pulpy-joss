@@ -1,5 +1,5 @@
 ---
-title: 'SigPy.RF: Comprehensive Python-Based MRI RF Pulse Design Tools'
+title: 'SigPy.RF: A Python Toolkit for MRI RF Pulse Design'
 tags:
   - Python
   - magnetic resonance imaging (MRI)
@@ -34,19 +34,19 @@ authors:
     corresponding: true # (This is how to denote the corresponding author)
     affiliation: 7
 affiliations:
- - name: Vanderbilt University Medical Center
+ - name: Vanderbilt University Institute of Imaging Science, Vanderbilt University Medical Center, Nashville, TN, USA
    index: 1
- - name: Yale University
+ - name: Department of Biomedical Engineering, Yale University, New Haven, CT, USA
    index: 2
- - name: Vanderbilt University
+ - name: Department of Biomedical Engineering, Vanderbilt University, Nashville, TN, USA
    index: 3
- - name: University of Texas
+ - name: Department of Electical and Computer Engineering, University of Texas at Austin, Austin, TX, USA
    index: 4
- - name: University of California, Berkeley
+ - name: Department of Electrical Engineering and Computer Sciences, University of California, Berkeley, Berkeley, CA, USA
    index: 5
- - name: Roblox Corporation
+ - name: Roblox Corporation, San Mateo, CA, USA
    index: 6
- - name: Case Western Reserve University
+ - name: Department of Biomedical Engineering, Case Western Reserve University, Cleveland, OH, USA
    index: 7
 date: 26 Mar 2023
 bibliography: paper.bib
