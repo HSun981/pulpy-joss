@@ -74,7 +74,7 @@ package within the broader SigPy package. Figure 1 illustrates where the RF puls
 
 ![New RF pulse design tools (red) within the SigPy package hierarchy. The pulse
  design tools are grouped in a series of modules dedicated to a specific pulse class or type
-of RF pulse design utility](https://github.com/jonbmartin/sigpyrf-joss/blob/main/sigpy-hierarch.eps)
+of RF pulse design utility](https://github.com/jonbmartin/sigpyrf-joss/blob/main/sigpy-hierarch.png)
 
 
 # About SigPy.RF
@@ -99,14 +99,14 @@ GPUs. Figure 1 shows the mean computation times for a small-tip-angle spatial do
 
 ![Mean execution time for small-tip spatial domain pulse design using SigPy
 linear operators and CuPy matrices across all considered problem dimensions, on CPU and
-GPU](https://github.com/jonbmartin/sigpyrf-joss/blob/main/execution_time.eps)
+GPU](https://github.com/jonbmartin/sigpyrf-joss/blob/main/execution_time.png)
 
 # Target Audience
 
 The SigPy.RF toolbox has been developed for the use of MRI researchers focusing on pulse sequence design, MRI physics, signal processing and optimization. We believe that it will serve as an essential building block of more general image acquisition tools which require specialized RF pulses. The toolbox has already been incorporated into open-source sequence development software such as Pulseq [@Layton2017] and PyPulseq [@SravanRavi2019] to provide RF pulses critical to the performance of various pulse sequences. An example is shown in Figure 3. 
 
 ![ First TR of a GRE pulse sequence created in Pulseq [@Layton2017] with SigPy.RF-designed SLR excitation
-pulse. Magnitude of the TB = 4 , 90 degree SLR pulse is plotted in the ‘RF mag’ plot, middle left. ](https://github.com/jonbmartin/sigpyrf-joss/blob/main/pulseq-sigpy_cropped.eps)
+pulse. Magnitude of the TB = 4 , 90 degree SLR pulse is plotted in the ‘RF mag’ plot, middle left. ](https://github.com/jonbmartin/sigpyrf-joss/blob/main/pulseq-sigpy_cropped.png)
 
 
 We also envision SigPy.RF may be utilized for replicability and
