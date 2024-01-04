@@ -89,9 +89,6 @@ toolboxes since the same low-level C FFT libraries are used [@Ong2019]. Addition
 a general unified CPU and GPU interface for most functions, allowing for easy movement
 of data between devices for computational flexibility and acceleration of computation with
 GPUs. \autoref{fig:execution} shows the mean computation times for a small-tip-angle spatial domain parallel transmit pulse design [@Grissom2006] on CPU and GPU. Design time was approximately an order of magnitude faster across all problem dimensions when the GPU was used versus CPU. 
-Finally, end-to-end optimization of MRI pulse sequences and reconstructions is 
-being increasingly explored [@Radhakrishna2023; @Wang2022]; with the RF pulse and gradient waveform design functions
-provided by SigPy.RF, the SigPy package could facilitate this research. 
 
 ![Mean execution time for small-tip spatial domain pulse design using SigPy
 linear operators and CuPy matrices across all considered problem dimensions, on CPU and
@@ -99,7 +96,9 @@ GPU \label{fig:execution}](execution_time.png){ width=60% }
 
 # Target Audience
 
-The SigPy.RF toolbox has been developed for the use of MRI researchers focusing on pulse sequence design, MRI physics, signal processing and optimization. We believe that it will serve as an essential building block of more general image acquisition tools which require specialized RF pulses. The toolbox has already been incorporated into open-source sequence development software such as Pulseq [@Layton2017] and PyPulseq [@SravanRavi2019] to provide RF pulses critical to the performance of various pulse sequences. An example is shown in \autoref{fig:pulseq}. 
+The SigPy.RF toolbox has been developed for the use of MRI researchers focusing on pulse sequence design, MRI physics, signal processing and optimization. We believe that it will serve as an essential building block of more general image acquisition tools which require specialized RF pulses. The toolbox has already been incorporated into open-source sequence development software such as Pulseq [@Layton2017] and PyPulseq [@SravanRavi2019] to provide RF pulses critical to the performance of various pulse sequences. An example is shown in \autoref{fig:pulseq}. Finally, end-to-end optimization of MRI pulse sequences and reconstructions is 
+being increasingly explored [@Radhakrishna2023; @Wang2022]; with the RF pulse and gradient waveform design functions
+provided by SigPy.RF, the SigPy package could facilitate this research. 
 
 ![ First TR of a GRE pulse sequence created in Pulseq [@Layton2017] with SigPy.RF-designed SLR excitation
 pulse. Magnitude of the TB = 4 , 90 degree SLR pulse is plotted in the ‘RF mag’ plot, middle left. \label{fig:pulseq}](pulseq-sigpy_cropped.png){ width=80% }
