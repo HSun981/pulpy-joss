@@ -90,7 +90,7 @@ a general unified CPU and GPU interface for most functions, allowing for easy mo
 of data between devices for computational flexibility and acceleration of computation with
 GPUs. \autoref{fig:execution} shows the mean computation times for a small-tip-angle spatial domain parallel transmit pulse design [@Grissom2006] on CPU and GPU. Design time was approximately an order of magnitude faster across all problem dimensions when the GPU was used versus CPU. 
 Finally, end-to-end optimization of MRI pulse sequences and reconstructions is 
-being increasingly explored [@Radhakrishna2023; @Wang2023]; with the RF pulse and gradient waveform design functions
+being increasingly explored [@Radhakrishna2023; @Wang2022]; with the RF pulse and gradient waveform design functions
 provided by SigPy.RF, the SigPy package could facilitate this research. 
 
 ![Mean execution time for small-tip spatial domain pulse design using SigPy
