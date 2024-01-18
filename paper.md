@@ -24,15 +24,12 @@ authors:
   - name: Jonathan I. Tamir
     equal-contrib: false
     affiliation: 4
-  - name: Michael Lustig
-    equal-contrib: false
-    affiliation: 5
   - name: Frank Ong
     equal-contrib: false
-    affiliation: 6
+    affiliation: 5
   - name: William A. Grissom
     corresponding: true # (This is how to denote the corresponding author)
-    affiliation: 7
+    affiliation: 6
 affiliations:
  - name: Vanderbilt University Institute of Imaging Science, Vanderbilt University Medical Center, Nashville, TN, USA
    index: 1
@@ -42,12 +39,10 @@ affiliations:
    index: 3
  - name: Department of Electical and Computer Engineering, University of Texas at Austin, Austin, TX, USA
    index: 4
- - name: Department of Electrical Engineering and Computer Sciences, University of California, Berkeley, Berkeley, CA, USA
-   index: 5
  - name: Roblox Corporation, San Mateo, CA, USA
-   index: 6
+   index: 5
  - name: Department of Biomedical Engineering, Case Western Reserve University, Cleveland, OH, USA
-   index: 7
+   index: 6
 date: 26 Mar 2023
 bibliography: paper.bib
 
