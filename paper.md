@@ -59,7 +59,7 @@ in independent repositories, no unified set of common pulse design tools has bee
 source pulse design code library would facilitate the development and dissemination of
 novel techniques and the comparison of approaches, similar to how BART [@Uecker2015] and SigPy
 [@Ong2019] have made advanced parallel imaging and reconstruction methods widely accessible. To meet this need, we have developed a library of
-pulse design tools as part of the SigPy Python package for signal processing and image reconstruction [@Ong2019]. We call this new package SigPy.RF. SigPy.RF is constructed as a nested
+pulse design tools as part of the SigPy Python package for signal processing and image reconstruction [@Ong2019]. We call this new package PulPy, short for Pulses in Python. SigPy.RF is constructed as a nested
 package within the broader SigPy package.\autoref{fig:hierarchy} illustrates where the RF pulse design tools fit into the broader SigPy software, as a nested package within the package for general MRI tools.
 
 ![New RF pulse design tools (red) within the SigPy package hierarchy. The pulse
@@ -67,7 +67,7 @@ package within the broader SigPy package.\autoref{fig:hierarchy} illustrates whe
 of RF pulse design utility. \label{fig:hierarchy}](sigpy-hierarch.png){ width=60% }
 
 
-# About SigPy.RF
+# About PulPy
 SigPy has a number of features that make it an ideal candidate to support a nested RF
 pulse design package. Image reconstruction and RF pulse design require many of the same
 operators and computational tools; for example, SENSE reconstruction [@Pruessmann] and small-tip
