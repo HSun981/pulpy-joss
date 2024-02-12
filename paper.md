@@ -1,5 +1,5 @@
 ---
-title: 'SigPy.RF: A Python Toolkit for MRI RF Pulse Design'
+title: 'PulPy: A Python Toolkit for MRI RF Pulse Design'
 tags:
   - Python
   - magnetic resonance imaging (MRI)
