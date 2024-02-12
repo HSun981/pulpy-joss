@@ -5,6 +5,7 @@ tags:
   - magnetic resonance imaging (MRI)
   - signal processing
   - RF pulse
+  - gradient
   - radiofrequency pulse design
   - adiabatic pulse
   - parallel transmission (pTx)
