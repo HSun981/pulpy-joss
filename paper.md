@@ -1,5 +1,5 @@
 ---
-title: 'PulPy: A Python Toolkit for MRI RF Pulse Design'
+title: 'PulPy: A Python Toolkit for MRI RF and Gradient Pulse Design'
 tags:
   - Python
   - magnetic resonance imaging (MRI)
