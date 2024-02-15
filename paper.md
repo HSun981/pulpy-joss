@@ -115,6 +115,6 @@ Preliminary development of this toolbox was presented in reference [@Martin2020a
 
 # Acknowledgements
 
-We gratefully acknowledge the support this study received from NIH Grant R01 EB 016695.
+We gratefully acknowledge the support this study received from NIH grants R01 EB 016695 and T32 EB 001628.
 
 # References
