@@ -92,7 +92,7 @@ GPU \label{fig:execution}](execution_time.png){ width=60% }
 
 # Target Audience
 
-The SigPy.RF toolbox has been developed for use by MRI researchers focusing on pulse sequence design, MRI physics, signal processing, and optimization. We believe that it will serve as an essential building block for more general image acquisition tools which require specialized RF pulses. The toolbox has already been incorporated into open-source sequence development software such as Pulseq [@Layton2017] and PyPulseq [@SravanRavi2019] to provide RF pulses critical to the performance of various pulse sequences. An example is shown in \autoref{fig:pulseq}. Finally, end-to-end optimization of MRI pulse sequences and reconstructions is 
+The PulPy toolbox has been developed for use by MRI researchers focusing on pulse sequence design, MRI physics, signal processing, and optimization. We believe that it will serve as an essential building block for more general image acquisition tools which require specialized RF pulses. The toolbox has already been incorporated into open-source sequence development software such as Pulseq [@Layton2017] and PyPulseq [@SravanRavi2019] to provide RF pulses critical to the performance of various pulse sequences. An example is shown in \autoref{fig:pulseq}. Finally, end-to-end optimization of MRI pulse sequences and reconstructions is 
 being increasingly explored [@Radhakrishna2023; @Wang2022]; with the RF pulse and gradient waveform design functions
 provided by SigPy.RF, the SigPy package could facilitate this research. 
 
@@ -101,17 +101,16 @@ pulse. Magnitude of the TB = 4 , 90 degree SLR pulse is plotted in the ‘RF mag
 
 
 We also envision SigPy.RF may be utilized for replicability and
-reproducibility studies, allowing for standardized conventions for RF pulses to be used across studies. The package could also serve as a hands-on teaching aid for researchers and students. We have developed [several tutorials](https://github.com/jonbmartin/sigpy-rf-tutorials), which are accessible to a wide audience with minimal prior MRI knowledge. 
+reproducibility studies, allowing for standardized conventions for RF pulses to be used across studies. The package could also serve as a hands-on teaching aid for researchers and students. We have developed [several tutorials](https://github.com/jonbmartin/pulpy-tutorials), which are accessible to a wide audience with minimal prior MRI knowledge. 
 
 # Availability and Use
 
-The latest version of SigPy includes the latest stable release of the pulse
+The latest version of PulPy includes the latest stable release of the pulse
 design tools and is available from 
-[the main repository](https://github.com/mikgroup/sigpy). It can be installed through conda or pip- see the [documentation](https://sigpy.readthedocs.io/en/latest/) for more details.
-The [SigPy.RF fork](https://github.com/jonbmartin/sigpy-rf) includes pulse design tools that are still in progress, prior to being merged into the main codebase. Jupyter notebook [pulse design
-tutorials](https://github.com/jonbmartin/sigpy-rf-tutorials) for SigPy.RF are also available.
+[the main repository](https://github.com/jonbmartin/pulpy). It can be installed through pip- see the [documentation](https://pulpy.readthedocs.io/en/latest/) for more details. Jupyter notebook [pulse design
+tutorials](https://github.com/jonbmartin/pulpy-tutorials) for SigPy.RF are also available.
 
-Preliminary development of this toolbox was presented in reference [@Martin2020a]; the current version has been streamlined and expanded to include a larger collection of RF pulse design methods from the literature, as well as additional utility tools for I/O, gradient waveform design, and experimental B$_1^+$-selective pulse design algorithms which were prototyped using the initial SigPy.RF codebase, enabling the publication of Reference [@Martin2022].
+Preliminary development of this toolbox was presented in references [@Martin2020a]; the current version has been streamlined and expanded to include a larger collection of RF pulse design methods from the literature, as well as additional utility tools for I/O, gradient waveform design, and experimental B$_1^+$-selective pulse design algorithms which were prototyped using the initial SigPy.RF codebase, enabling the publication of Reference [@Martin2022].
 
 # Acknowledgements
 
