@@ -58,15 +58,15 @@ We present PulPy (Pulses in Python), an extensive set of open-source, Python-bas
 | .rf         | multiband.py   | Pulse multibanding for simultaneous multi-slice |            |
 | .rf         | optcont.py     | 1D large tip angle optimal control design       |            |
 | .rf         | ptx.py         | parallel transmit pulse designers               |            |
-| .rf         | shim.py        | pTx RF shimming                                 |            |
-| .rf         | slr.py         | conventional SLR and variations                 |            |
+| .rf         | shim.py        | parallel transmit RF shimming                   |            |
+| .rf         | slr.py         | Conventional SLR and variations                 |            |
 | .rf         | util.py        | RF pulse design utilities                       |            |
 | .grad       | waveform.py    | Gradient and trajectory designers               |            |
 | .grad       | optim.py       | Gradient and trajectory optimization            |            |
-| core        | io.py          | Vendor-specific input/output                    |            |
+| core        | io.py          | Vendor-specific scanner input/output            |            |
 | core        | linop.py       | Linear operators for pulse design               |            |
 | core        | sim.py         | 1-D, N-D, and N-coil Bloch simulation           |            |
-| core        | verse.py       |                                                 |            |
+| core        | verse.py       | RF pulse/gradient reshaping tools               |            |
 
 
 
