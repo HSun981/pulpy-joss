@@ -52,11 +52,11 @@ bibliography: paper.bib
 # Summary
 We present PulPy (Pulses in Python), an extensive set of open-source, Python-based tools for magnetic resonance imaging (MRI) radiofrequency (RF) and gradient pulse design. This toolbox builds on the RF pools introduced previously in the SigPy.RF Python software package and leverages SigPy’s existing capabilities for GPU computation, iterative optimization, and powerful abstractions for linear operators and applications. Tools are available for all steps of the pulse design process including trajectory/gradient design, pulse design, and simulation. Our implemented functions for pulse design include advanced Shinnar-LeRoux (SLR), multiband, adiabatic, optimal control, B$_1^+$-selective and small-tip parallel transmission (pTx) designers. 
 
-| Month    | Savings |
-| -------- | ------- |
-| January  | $250    |
-| February | $80     |
-| March    | $420    |
+| Language | Typing          | Garbage Collected | Evaluation | Created |
+|----------|:---------------:|:-----------------:|------------|---------|
+| Haskell  | static, strong  | yes               | non-strict | 1990    |
+| Lua      | dynamic, strong | yes               | strict     | 1993    |
+| C        | static, weak    | no                | strict     | 1972    |
 
 
 
