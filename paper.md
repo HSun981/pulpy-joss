@@ -52,22 +52,22 @@ bibliography: paper.bib
 # Summary
 We present PulPy (Pulses in Python), an extensive set of open-source, Python-based tools for magnetic resonance imaging (MRI) radiofrequency (RF) and gradient pulse design. This toolbox builds on the RF pools introduced previously in the SigPy.RF Python software package and leverages SigPy’s existing capabilities for GPU computation, iterative optimization, and powerful abstractions for linear operators and applications. Tools are available for all steps of the pulse design process including trajectory/gradient design, pulse design, and simulation. Our implemented functions for pulse design include advanced Shinnar-LeRoux (SLR), multiband, adiabatic, optimal control, B$_1^+$-selective and small-tip parallel transmission (pTx) designers. 
 
-| Module               | Description                                                  |
-|:--------------------:|:------------------------------------------------------------:|
-| .rf.adiabatic.py     | Adiabatic and frequency-swept RF pulses  (e.g.               |
-| .rf.b1sel.py         | B1-selective pulses (e.g. [@Martin2022])                     |
-| .rf.multiband.py     | Pulse multibanding for simultaneous multi-slice imaging      |
-| .rf.optcont.py       | 1D large tip angle optimal control pulse design              |
-| .rf.ptx.py           | parallel transmit pulse designers (e.g. [@Grissom2006])      |
-| .rf.shim.py          | parallel transmit RF shimming                                |
-| .rf.slr.py           | Conventional SLR and variations (Hadamard, recursive, etc.   |
-| .rf.util.py          | RF pulse design utilities                                    |
-| .grad.waveform.py    | Gradient and trajectory designers                            |
-| .grad.optim.py       | Gradient and trajectory optimization/reshaping               |
-| io.py                | Vendor-specific scanner input/output                         |
-| linop.py             | Linear operators for pulse design                            |
-| sim.py               | 1-D, N-D, and N-coil Bloch simulation                        |
-| verse.py             | RF pulse/gradient reshaping tools (e.g.                       |
+| Module               | Description                                                      |
+|:--------------------:|:----------------------------------------------------------------:|
+| .rf.adiabatic.py     | Adiabatic and frequency-swept RF pulses (e.g. [@Garwood2001])    |
+| .rf.b1sel.py         | B1-selective pulses (e.g. [@Martin2022])                         |
+| .rf.multiband.py     | Pulses for simultaneous multi-slice imaging (e.g. [@Norris2011]) |
+| .rf.optcont.py       | Large tip angle optimal control design (e.g. [@Connolly1986])    |
+| .rf.ptx.py           | parallel transmit pulse designers (e.g. [@Grissom2006])          |
+| .rf.shim.py          | parallel transmit RF shimming (e.g. [@                           |
+| .rf.slr.py           | Conventional SLR and variations (e.g. [@Pauly1991])              |
+| .rf.util.py          | RF pulse design utilities                                        |
+| .grad.waveform.py    | Gradient and trajectory designers (e.g. [@Kim2003])              |
+| .grad.optim.py       | Gradient and trajectory optimization (e.g. [@Lustig2008])        |
+| io.py                | Vendor-specific scanner input/output                             |
+| linop.py             | Linear operators for pulse design                                |
+| sim.py               | 1-D, N-D, and N-coil Bloch simulation                            |
+| verse.py             | RF pulse/gradient reshaping tools                                |
 
 
 
