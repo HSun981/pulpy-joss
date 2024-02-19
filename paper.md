@@ -54,19 +54,20 @@ We present PulPy (Pulses in Python), an extensive set of open-source, Python-bas
 
 | Subpackage  | Module         | Description                                                  |
 |:-----------:|:--------------:|:------------------------------------------------------------:|
-| .rf         | adiabatic.py   | Adiabatic and frequency-swept RF pulses                      |
-| .rf         | multiband.py   | Pulse multibanding for simultaneous multi-slice              |
-| .rf         | optcont.py     | 1D large tip angle optimal control design                    |
-| .rf         | ptx.py         | parallel transmit pulse designers                            |
+| .rf         | adiabatic.py   | Adiabatic and frequency-swept RF pulses  (e.g.               |
+| .rf         | b1sel.py       | B1-selective pulses (e.g. [@Martin2022])                     |
+| .rf         | multiband.py   | Pulse multibanding for simultaneous multi-slice imaging      |
+| .rf         | optcont.py     | 1D large tip angle optimal control pulse design              |
+| .rf         | ptx.py         | parallel transmit pulse designers (e.g. [@Grissom2006])      |
 | .rf         | shim.py        | parallel transmit RF shimming                                |
-| .rf         | slr.py         | Conventional SLR and variations                              |
+| .rf         | slr.py         | Conventional SLR and variations (Hadamard, recursive, etc.   |
 | .rf         | util.py        | RF pulse design utilities                                    |
 | .grad       | waveform.py    | Gradient and trajectory designers                            |
-| .grad       | optim.py       | Gradient and trajectory optimization                         |
+| .grad       | optim.py       | Gradient and trajectory optimization/reshaping               |
 | core        | io.py          | Vendor-specific scanner input/output                         |
 | core        | linop.py       | Linear operators for pulse design                            |
 | core        | sim.py         | 1-D, N-D, and N-coil Bloch simulation                        |
-| core        | verse.py       | RF pulse/gradient reshaping tools                            |
+| core        | verse.py       | RF pulse/gradient VERSE-related reshaping tools              |
 
 
 
@@ -112,13 +113,13 @@ GPU \label{fig:execution}](execution_time.png){ width=60% }
 
 The PulPy toolbox has been developed for use by MRI researchers focusing on pulse sequence design, MRI physics, signal processing, and optimization. We believe that it will serve as an essential building block for more general image acquisition tools which require specialized RF pulses. The toolbox has already been incorporated into open-source sequence development software such as Pulseq [@Layton2017] and PyPulseq [@SravanRavi2019] to provide RF pulses critical to the performance of various pulse sequences. An example is shown in \autoref{fig:pulseq}. Finally, end-to-end optimization of MRI pulse sequences and reconstructions is 
 being increasingly explored [@Radhakrishna2023; @Wang2022]; with the RF pulse and gradient waveform design functions
-provided by SigPy.RF, the SigPy package could facilitate this research. 
+provided, the PulPy package could facilitate this research. 
 
 ![ First TR of a GRE pulse sequence created in Pulseq [@Layton2017] with SigPy.RF-designed SLR excitation
 pulse. Magnitude of the TB = 4 , 90 degree SLR pulse is plotted in the ‘RF mag’ plot, middle left. \label{fig:pulseq}](pulseq-sigpy_cropped.png){ width=80% }
 
 
-We also envision SigPy.RF may be utilized for replicability and
+We also envision PulPy may be utilized for replicability and
 reproducibility studies, allowing for standardized conventions for RF pulses to be used across studies. The package could also serve as a hands-on teaching aid for researchers and students. We have developed [several tutorials](https://github.com/jonbmartin/pulpy-tutorials), which are accessible to a wide audience with minimal prior MRI knowledge. 
 
 # Availability and Use
@@ -126,7 +127,7 @@ reproducibility studies, allowing for standardized conventions for RF pulses to 
 The latest version of PulPy includes the latest stable release of the pulse
 design tools and is available from 
 [the main repository](https://github.com/jonbmartin/pulpy). It can be installed through pip- see the [documentation](https://pulpy.readthedocs.io/en/latest/) for more details. Jupyter notebook [pulse design
-tutorials](https://github.com/jonbmartin/pulpy-tutorials) for SigPy.RF are also available.
+tutorials](https://github.com/jonbmartin/pulpy-tutorials) for PulPy are also available, which demonstrate several classes of pulse design.
 
 Preliminary development of this toolbox was presented in references [@Martin2020a]; the current version has been streamlined and expanded to include a larger collection of RF pulse design methods from the literature, as well as additional utility tools for I/O, gradient waveform design, and experimental B$_1^+$-selective pulse design algorithms which were prototyped using the initial SigPy.RF codebase, enabling the publication of Reference [@Martin2022].
 
