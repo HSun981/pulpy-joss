@@ -57,7 +57,7 @@ We present PulPy (Pulses in Python), an extensive set of open-source, Python-bas
 | .rf         | adiabatic.py   | Adiabatic and frequency-swept RF pulses         |            |
 | .rf         | multiband.py   | Pulse multibanding for simultaneous multi-slice |            |
 | .rf         | optcont.py     | 1D large tip angle optimal control design       |            |
-| .rf         | ptx.py         | parallel transmit pulse designers               |            |
+| .rf         | ptx.py         | parallel transmit pulse designers               |[@Grissom2006]      |
 | .rf         | shim.py        | parallel transmit RF shimming                   |            |
 | .rf         | slr.py         | Conventional SLR and variations                 |            |
 | .rf         | util.py        | RF pulse design utilities                       |            |
