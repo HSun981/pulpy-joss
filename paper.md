@@ -72,7 +72,7 @@ We present PulPy (Pulses in Python), an extensive set of open-source, Python-bas
 
 
 # Statement of need
-The field of magnetic resonance imaging is currently experiencing rapid growth in open source imaging tools. Tools have been made freely available for MRI hardware development [@Amrein2022; @Anand2018], system simulation [@Villena2014; @Stocker2010], pulse sequence programming [@Layton2017], image reconstruction [@Ong2019; @Uecker2015], and post-processing and analysis [@Avants2014; @Duval2018].
+The field of magnetic resonance imaging is currently experiencing rapid growth in open source imaging tools. Tools have been made freely available for MRI hardware development [@Amrein2022; @Anand2018], system simulation [@Villena2014; @Stocker2010], pulse sequence programming [@Layton2017], image reconstruction [@Ong2019; @Uecker2015], and post-processing and analysis [@Avants2014; @Duval2018]. The great increase in open-source tools 
 However, one critical step of the imaging pipeline which has seen limited open-source tool development is RF pulse design.  While RF pulse developers increasingly share code online
 in independent repositories, no unified set of common pulse design tools has been maintained in a rigorous and consistent manner with easy-to-read code and tutorials. This is despite the reality that in many cases, carefully designed or application-specific RF pulses are crucial to the success of MRI techniques. An open
 source pulse design code library would facilitate the development and dissemination of
