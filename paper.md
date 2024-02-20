@@ -50,7 +50,7 @@ bibliography: paper.bib
 ---
 
 # Summary
-We present PulPy (Pulses in Python), an extensive set of open-source, Python-based tools for magnetic resonance imaging (MRI) radiofrequency (RF) and gradient pulse design. This toolbox builds on the RF pools introduced previously in the SigPy.RF Python software package and leverages SigPy’s existing capabilities for GPU computation, iterative optimization, and powerful abstractions for linear operators and applications. Tools are available for all steps of the pulse design process including trajectory/gradient design, pulse design, and simulation. Our implemented functions for pulse design include advanced Shinnar-LeRoux (SLR), multiband, adiabatic, optimal control, B$_1^+$-selective and small-tip parallel transmission (pTx) designers. 
+We present PulPy (Pulses in Python), an extensive set of open-source, Python-based tools for magnetic resonance imaging (MRI) radiofrequency (RF) and gradient pulse design. Tools are available for all steps of the pulse design process including trajectory/gradient design, pulse design, and simulation. Our implemented functions for pulse design include advanced Shinnar-LeRoux (SLR), multiband, adiabatic, optimal control, B$_1^+$-selective and small-tip parallel transmission (pTx) designers. This toolbox builds on the RF pools introduced previously in the SigPy.RF Python software package and leverages SigPy’s existing capabilities for GPU computation, iterative optimization, and powerful abstractions for linear operators and applications. 
 
 | Module               | Description                                                      |
 |:--------------------:|:----------------------------------------------------------------:|
@@ -133,6 +133,6 @@ Preliminary development of this toolbox was presented in references [@Martin2020
 
 # Acknowledgements
 
-We gratefully acknowledge the support this study received from NIH grants R01 EB 016695 and T32 EB 001628.
+The authors gratefully acknowledge the assistance provided by Frank Ong, Jonathan Tamir, and Michael Lustig in developing the original SciPy.RF toolbox, which was foundational to this work. We thank the users of SigPy and SigPy.RF for contributing feedback, suggesting new features, and reporting bugs. We acknowledge the support this study received from NIH grants R01 EB 016695 and T32 EB 001628.
 
 # References
