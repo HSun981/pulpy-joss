@@ -81,9 +81,6 @@ novel techniques and the comparison of approaches, similar to how BART [@Uecker2
 pulse design tools as part of the SigPy Python package for signal processing and image reconstruction [@Ong2019]. We call this new package PulPy, short for Pulses in Python. SigPy.RF is constructed as a nested
 package within the broader SigPy package.\autoref{fig:hierarchy} illustrates where the RF pulse design tools fit into the broader SigPy software, as a nested package within the package for general MRI tools.
 
-![New RF pulse design tools (red) within the SigPy package hierarchy. The pulse
- design tools are grouped in a series of modules dedicated to a specific pulse class or type
-of RF pulse design utility. \label{fig:hierarchy}](sigpy-hierarch.png){ width=60% }
 
 
 # About PulPy
@@ -114,9 +111,6 @@ GPU \label{fig:execution}](pulpy_demo.png){ width=60% }
 The PulPy toolbox has been developed for use by MRI researchers focusing on pulse sequence design, MRI physics, signal processing, and optimization. We believe that it will serve as an essential building block for more general image acquisition tools which require specialized RF pulses. The toolbox has already been incorporated into open-source sequence development software such as Pulseq [@Layton2017] and PyPulseq [@SravanRavi2019] to provide RF pulses critical to the performance of various pulse sequences. An example is shown in \autoref{fig:pulseq}. Finally, end-to-end optimization of MRI pulse sequences and reconstructions is 
 being increasingly explored [@Radhakrishna2023; @Wang2022]; with the RF pulse and gradient waveform design functions
 provided, the PulPy package could facilitate this research. 
-
-![ First TR of a GRE pulse sequence created in Pulseq [@Layton2017] with SigPy.RF-designed SLR excitation
-pulse. Magnitude of the TB = 4 , 90 degree SLR pulse is plotted in the ‘RF mag’ plot, middle left. \label{fig:pulseq}](pulseq-sigpy_cropped.png){ width=80% }
 
 
 We also envision PulPy may be utilized for replicability and
