@@ -107,7 +107,7 @@ GPUs. \autoref{fig:execution} shows the mean computation times for a small-tip-a
 
 ![Mean execution time for small-tip spatial domain pulse design using SigPy
 linear operators and CuPy matrices across all considered problem dimensions, on CPU and
-GPU \label{fig:execution}](execution_time.png){ width=60% }
+GPU \label{fig:execution}](pulpy_demo.png){ width=60% }
 
 # Target Audience
 
