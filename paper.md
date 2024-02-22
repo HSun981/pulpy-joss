@@ -50,7 +50,7 @@ bibliography: paper.bib
 ---
 
 # Summary
-We present PulPy (Pulses in Python), an extensive set of open-source, Python-based tools for magnetic resonance imaging (MRI) radiofrequency (RF) and gradient pulse design. PulPy is a Python package containing implementations of a wide range of commonly used RF and gradient pulse design tools. Our implemented functions for RF pulse design include advanced Shinnar-LeRoux (SLR), multiband, adiabatic, optimal control, B$_1^+$-selective and small-tip parallel transmission (pTx) designers. Gradient waveform design functionality is included, providing the ability to design and optimize readout or excitation k-space trajectories [@Pauly1989].  Other useful tools such as vendor-specific waveform input/output, Bloch equation simulators, abstracted linear operators, and pulse reshaping functions are included.  This toolbox builds on the RF tools introduced previously in the SigPy.RF Python software package [@Martin2020a] and leverages SigPy’s existing capabilities for GPU computation, iterative optimization, and powerful abstractions for linear operators and applications [@Ong2019]. 
+We present PulPy (Pulses in Python), an extensive set of open-source, Python-based tools for magnetic resonance imaging (MRI) radiofrequency (RF) and gradient pulse design. PulPy is a Python package containing implementations of a wide range of commonly used RF and gradient pulse design tools. Our implemented functions for RF pulse design include advanced Shinnar-LeRoux (SLR), multiband, adiabatic, optimal control, B$_1^+$-selective and small-tip parallel transmission (pTx) designers. Gradient waveform design functionality is included, providing the ability to design and optimize readout or excitation k-space trajectories [@Pauly1989].  Other useful tools such as vendor-specific waveform input/output, Bloch equation simulators, abstracted linear operators, and pulse reshaping functions are included.  This toolbox builds on the RF tools introduced previously in the SigPy.RF Python software package [@Martin2020a] and leverages SigPy’s existing capabilities for GPU computation, iterative optimization, and powerful abstractions for linear operators and applications [@Ong2019]. The table below shows an outline of the implemented functions.
 
 | Module               | Description                                                      |
 |:--------------------:|:----------------------------------------------------------------:|
@@ -59,17 +59,17 @@ We present PulPy (Pulses in Python), an extensive set of open-source, Python-bas
 | .rf.multiband.py     | Pulses for simultaneous multi-slice (e.g. [@Norris2011])         |
 | .rf.optcont.py       | Large tip angle optimal control design (e.g. [@Connolly1986])    |
 | .rf.ptx.py           | parallel transmit pulse designers (e.g. [@Grissom2006])          |
-| .rf.shim.py          | parallel transmit RF shimming (e.g. [@                           |
+| .rf.shim.py          | parallel transmit RF shimming                                    |               
 | .rf.slr.py           | Conventional SLR and variations (e.g. [@Pauly1991])              |
 | .rf.util.py          | RF pulse design utilities                                        |
 | .grad.waveform.py    | Gradient and trajectory designers (e.g. [@Kim2003])              |
 | .grad.optim.py       | Gradient and trajectory optimization (e.g. [@Lustig2008])        |
 | io.py                | Vendor-specific scanner input/output                             |
 | linop.py             | Linear operators for pulse design (e.g. [@Grissom2006])          |
-| sim.py               | 1-D, N-D, and N-coil Bloch simulation (e.g. [@Mansfield1982])    |
+| sim.py               | 1-D/N-D/N-coil Bloch simulation (e.g. [@Mansfield1982])          |
 | verse.py             | RF pulse/gradient reshaping tools                                |
 
-Preliminary development of this toolbox was presented in reference [@Martin2020a]. The pulse design tools were initially implemented as a sub-package in the SigPy Python package for signal processing and image reconstruction [@Ong2019]. The PulPy toolbox migrates those tools into a pulse design specific package, with SigPy as an external dependency. PulPy has been streamlined and expanded to include a larger collection of RF and gradient pulse design methods from the literature, as well as additional utility tools for I/O, pulse reshaping, and experimental B$_1^+$-selective pulse design algorithms which were prototyped using the initial SigPy codebase, enabling the publication of Reference [@Martin2022].
+Preliminary development of this toolbox was presented in reference [@Martin2020a]. The pulse design tools were initially implemented as a sub-package in the SigPy Python package for signal processing and image reconstruction [@Ong2019]. The PulPy toolbox migrates those tools into a pulse design specific package, with SigPy as an external dependency. PulPy has been streamlined and expanded to include a larger collection of RF and gradient pulse design methods from the literature, as well as additional utility tools for I/O, pulse reshaping, and experimental B$_1^+$-selective pulse design algorithms which were prototyped using the initial SigPy codebase, enabling the publication of Reference [@Martin2022]. Figure \ref{pulses_demo} shows an example of RF and gradient waveforms produced by PulPy.
 
 
 # Statement of need
@@ -82,9 +82,7 @@ novel techniques and the comparison of approaches, similar to how BART [@Uecker2
 MRI pulse design tools. We call this new package PulPy, short for Pulses in Python. 
 
 
-![Mean execution time for small-tip spatial domain pulse design using SigPy
-linear operators and CuPy matrices across all considered problem dimensions, on CPU and
-GPU \label{fig:execution}](pulpy_demo.png){ width=90% }
+![Example RF and gradient waveforms that PulPy can produce. Top left: 4-channel spokes RF pulse. Bottom left: associated 3-axis spokes gradient waveforms. Top right: PINS excitation RF pulse. Bottom right: associated slice-axis gradient \label{fig:pulses_demo}](pulpy_demo.png){ width=90% }
 
 # Target Audience
 
@@ -106,6 +104,6 @@ tutorials](https://github.com/jonbmartin/pulpy-tutorials) for PulPy are also ava
 
 # Acknowledgements
 
-The authors gratefully acknowledge the assistance provided by Frank Ong, Jonathan Tamir, and Michael Lustig in developing the original SciPy.RF toolbox, which was foundational to this work. We thank the users of SigPy and SigPy.RF for contributing feedback, suggesting new features, and reporting bugs. We acknowledge the support this study received from NIH grants R01 EB 016695 and T32 EB 001628.
+The authors gratefully acknowledge the assistance provided by Frank Ong, Jonathan Tamir, and Michael Lustig in developing the original SigPy.RF toolbox, which was foundational to this work. We thank the users of SigPy and SigPy.RF for contributing feedback, suggesting new features, and reporting bugs. We acknowledge the support this study received from NIH grants R01 EB 016695 and T32 EB 001628.
 
 # References
