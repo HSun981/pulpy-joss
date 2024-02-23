@@ -64,8 +64,8 @@ Preliminary development of this toolbox was presented in reference [@Martin2020a
 
 # Statement of need
 The field of magnetic resonance imaging is currently experiencing rapid growth in available open source imaging tools. Tools have been made freely available for MRI hardware development [@Amrein2022; @Anand2018], system simulation [@Villena2014; @Stocker2010], pulse sequence programming [@Layton2017], image reconstruction [@Ong2019; @Uecker2015], and post-processing and analysis [@Avants2014; @Duval2018; Soher2023]. The great increase in open-source tools has helped enable fully open-source imaging systems [@Arndt2017, @Artiges2024]. 
-However, one critical step of the imaging pipeline which has seen limited open-source tool development is RF and gradient pulse design.  While RF pulse and gradient designers increasingly share code online
-in independent repositories, no unified set of common pulse design tools has been maintained in a rigorous and consistent manner with easy-to-read code and tutorials. This is despite the reality that in many cases, carefully designed or application-specific RF and gradient pulses are crucial to the success of MRI techniques. An open
+However, one critical aspect imaging pipeline which has seen limited open-source tool development is RF and gradient pulse design.  While RF pulse and gradient designers increasingly share code online
+in independent repositories, there are few sets of common pulse design tools maintained in a rigorous and consistent manner with easy-to-read code and tutorials. This is despite the reality that in many cases, carefully designed or application-specific RF and gradient pulses are crucial to the success of MRI or NMR techniques. An open
 source pulse design code library would facilitate the development and dissemination of
 novel techniques and the comparison of approaches, similar to how BART [@Uecker2015] and SigPy
 [@Ong2019] have made advanced parallel imaging and reconstruction methods widely accessible. To meet this need, we have developed a library of
@@ -81,8 +81,7 @@ being increasingly explored [@Radhakrishna2023; @Wang2022]; with the RF pulse an
 provided, the PulPy package could facilitate this research. 
 
 
-Reproducibility and standardization are critical needs in MRI , and any method of reducing methodological variability is desirable. We believe that having centralized references for RF and gradient pulses will help promote consistency between studies PulPy may be utilized for replicability and
-reproducibility studies, allowing for standardized RF pulses to be used across imaging studies. PulPy's predecessor toolbox, SigPy.RF, also served as a hands-on teaching aid for researchers and students. We believe that as  We have developed [several tutorials](https://github.com/jonbmartin/pulpy-tutorials), which are accessible to a wide audience with minimal prior MRI knowledge. 
+Reproducibility and standardization are critical needs in MRI , and any method of reducing methodological variability is desirable. We believe that having centralized references for RF and gradient pulses will help promote consistency between studies by providing common code sources for the most widely used RF and gradient pulses. PulPy's predecessor toolbox, SigPy.RF, also served as a hands-on teaching aid for researchers and students (for example, see the educational ISMRM tutorial associated with [@Martin2020a]). This is a role that the PulPy toolbox will continue to fill. We have developed [several tutorials](https://github.com/jonbmartin/pulpy-tutorials), which are accessible to a wide audience with minimal prior MRI knowledge. 
 
 # Availability and Use
 
