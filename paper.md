@@ -98,7 +98,12 @@ tutorials](https://github.com/jonbmartin/pulpy-tutorials) for PulPy are also ava
 
 # Acknowledgements
 
-We would like to particularly acknowledge that this toolbox is indebted to the MRI scientists who created the RF and gradient pulse design innovations showcased in this software. These are cited as much as possible in this paper and in the PulPy source code. We are particularly thankful for John Pauly's invaluable [MATLAB SLR pulse design toolbox](https://rsl.stanford.edu/research/software.html)[@Pauly1991], which helped inform the core of PulPy's SLR pulse design module. The EPI gradient waveform designer was based on Jeff Fessler's [MIRT](https://web.eecs.umich.edu/~fessler/code/) implementation [@Fessler].
+We would like to particularly acknowledge that this toolbox is indebted to the MRI scientists who created the RF and gradient pulse design innovations showcased in this software. These are cited as much as possible in this paper and in the PulPy source code. We are particularly thankful for John Pauly's invaluable MATLAB SLR [pulse design toolbox](https://rsl.stanford.edu/research/software.html) [@Pauly1991], which helped inform the core of PulPy's SLR pulse design module. The EPI gradient waveform designer was based on Jeff Fessler's [MIRT](https://web.eecs.umich.edu/~fessler/code/) implementation [@Fessler]. Many other useful case-specific RF pulse design toolboxes not directly incorporated into this toolbox have been created, and we encourage PulPy users to investigate these toolboxes: 
+
+- [Multiband-RF](https://github.com/mriphysics/Multiband-RF) (MATLAB-based) for advanced multiband RF pulse design, incorporating [@AboSeada2019]
+- [Spectral-Spatial-RF-Pulse-Design](https://github.com/LarsonLab/Spectral-Spatial-RF-Pulse-Design) (MATLAB-based) for designing spectral-spatial RF pulses for MRS and MR imaging, incorporating [@Larson2008]
+- [FastPtx](https://link.springer.com/article/10.1007/s10334-023-01134-7) (Python-based) for designing pTx RF and gradient pulses, from [@Bosch2023]
+
 
 The authors gratefully acknowledge the assistance provided by Frank Ong, Jonathan Tamir, and Michael Lustig in developing the original SigPy.RF toolbox, which was foundational to this work. We thank the users of SigPy and SigPy.RF for contributing feedback, suggesting new features, and reporting bugs. We acknowledge the support this study received from NIH grants R01 EB 016695 and T32 EB 001628.
 
