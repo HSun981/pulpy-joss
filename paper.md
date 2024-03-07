@@ -22,9 +22,12 @@ authors:
   - name: Madison Albert
     equal-contrib: false
     affiliation: 3
+  - name: Kevin M. Johnson
+    equal-contrib: false
+    affiliation: 4
   - name: William A. Grissom
     corresponding: true # (This is how to denote the corresponding author)
-    affiliation: 4
+    affiliation: 5
 affiliations:
  - name: Vanderbilt University Institute of Imaging Science, Vanderbilt University Medical Center, Nashville, TN, USA
    index: 1
@@ -32,8 +35,10 @@ affiliations:
    index: 2
  - name: Department of Biomedical Engineering, Vanderbilt University, Nashville, TN, USA
    index: 3
- - name: Department of Biomedical Engineering, Case Western Reserve University, Cleveland, OH, USA
+ - name: Department of Medical Physics and Radiology, University of Wisconsin School of Medicine and Public Health, Madison, WI, USA
    index: 4
+ - name: Department of Biomedical Engineering, Case Western Reserve University, Cleveland, OH, USA
+   index: 5
 date: 26 Mar 2023
 bibliography: paper.bib
 
