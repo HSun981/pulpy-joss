@@ -16,6 +16,7 @@ authors:
     equal-contrib: false
     affiliation: 1 # (Multiple affiliations must be quoted)
   - name: Heng Sun
+    orcid: 0000-0001-9091-4591
     equal-contrib: false
     affiliation: 2
   - name: Madison Albert
